@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Tinos", serif;
+  font-weight: 500;
+}
+main{
+    background: url(img/backimg.avif) rgba(0, 0, 0, 0.664);
+    background-blend-mode: multiply;
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    overflow: hidden;
+}
+h1{
+    font-size: 35px;
+    color: white;
+    transform: translateY(-1100%);
+    transition: transform 1s ease-in;
+}
+p{
+    font-size: 25px;
+    color: rgb(196, 158, 233);
+    transform: translateX(-300%);
+    transition: transform 1s ease-in;
+}
+button{
+    width: 120px;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 10px  rgb(196, 158, 233);
+    transform: translateX(1500%);
+    transition: transform 1s ease-in;
+}
+button:hover{
+    box-shadow: 0px 1px 10px  black;
+}
